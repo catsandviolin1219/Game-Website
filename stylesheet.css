@@ -36,12 +36,19 @@ h2 {
 }
 
 .game {
-    text-align: center;
+    text-align: top;
     background-color: white;
     margin: 10px;
+    display: inline-block;
+    width: 33%;
+    padding: 10px;
 }
 
-a {
+.games {
+    text-align: center;
+}
+
+.button {
     text-align: center;
     background-color: rgb(98, 198, 255);
     border-style: solid;
@@ -52,7 +59,12 @@ a {
     color: black;
 }
 
-a:hover {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
     background-color: rgb(66, 132, 170);
 }
 
