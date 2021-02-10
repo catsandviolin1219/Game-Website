@@ -74,3 +74,9 @@ a {
     background-color:rgb(0, 100, 100);
     color: rgb(0, 100, 100);
 }
+.copyright {
+    background-color:rgb(0, 100, 100);
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
