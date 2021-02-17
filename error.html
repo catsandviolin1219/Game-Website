@@ -8,8 +8,29 @@
 </head>
 
 <script>
+    clicks = 0;
     function e() {
-        alert('e');
+        clicks++;
+        if (clicks > 10 && clicks < 12) {
+            alert('Challenge Complete: Serious Dedication');
+        }
+        if (clicks > 25 && clicks < 27) {
+            alert('Challenge Complete: How did we get here?');
+        }
+        if (clicks > 29 && clicks < 31) {
+            alert('No but seriously why must you do this');
+            alert('Stop clicking');
+            alert('Please');
+        }
+        if (clicks > 35 && clicks < 37) {
+            clicks = 99;
+            alert('Click ok.');
+            while (true) {
+                alert('Click on ok ' + clicks + ' more times and you get released!');
+                clicks -= 1;
+            }
+            alert('Click on ok 1 more time and you get released!');
+        }
     }
 </script>
 
@@ -21,7 +42,7 @@
     <h2>That's not available right now...</h2>
     <div class="game">o0f</div>
     <div class="error">
-        <button onclick="e()">Did you press CTRL + A?</button>
+        <p onclick="e()">Did you press CTRL + A?</p>
     </div>
     <div class="copyright">
         <p>Copyright © MusicByCameron 2020, All rights reserved.</p>
