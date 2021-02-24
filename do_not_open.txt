@@ -1,0 +1,50 @@
+using Human;
+using Human.Brain;
+using Human.Brain.Functions;
+using Audio.Manager;
+
+IEnumerator RickRoll(human h) {
+    if (!h.brain.skeptical && h.brain.functioning {
+        // RICK ROLL LOL
+        manager.Play("Rick Astley - Never Gonna Give You Up");
+    }
+    // Wait a second
+    yield return new WaitForSeconds(1);
+    if (h.brain.knows("Rick Rolled"))
+    {
+        // System.Laugh syntax: (int laughSeconds, bool veryFunny)
+        system.Laugh(10, true);
+    }
+}
+
+DO-DO DOP DO-DO-DO-DO-
+
+dooo dooo do doooo doooooooooooooo
+dududududooo dooo doooooooooooooo
+dudududududu
+dooo dooo do doooo doooooooooooooo
+dududududooo dooo doooooooooooooo
+dudu dududu duh
+
+we're no strangers to looove
+you know the rules, and so do idk
+*something*
+you won't get this from any other guy
+
+i just gotta tell you what i'm feeling
+*something* understand:
+
+Never gonna give you up
+never gonna let you down
+never gonna run around
+and desert you
+
+never gonna make you cry
+never gonna say good-byeee
+never gonna tell a lie
+and hurt youuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+
+idk the rest of the lyrics
+get rick rolled
+btw did you see the 3 easter eggs? just randomly click on things if you want to find them
+if you are smort you can use the source code
